@@ -1,0 +1,402 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		520CEC212B34319600993DAC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520CEC202B34319600993DAC /* AppDelegate.swift */; };
+		520CEC252B34319600993DAC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520CEC242B34319600993DAC /* ViewController.swift */; };
+		520CEC282B34319600993DAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 520CEC262B34319600993DAC /* Main.storyboard */; };
+		520CEC2A2B34319900993DAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 520CEC292B34319900993DAC /* Assets.xcassets */; };
+		520CEC2D2B34319900993DAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 520CEC2B2B34319900993DAC /* LaunchScreen.storyboard */; };
+		529108142B55116700B55CD6 /* LiveStreamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529108132B55116700B55CD6 /* LiveStreamViewController.swift */; };
+		529108162B55275000B55CD6 /* BlueEffectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529108152B55275000B55CD6 /* BlueEffectViewController.swift */; };
+		529108192B552AC800B55CD6 /* StretchyHeaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529108182B552AC800B55CD6 /* StretchyHeaderViewController.swift */; };
+		5291081C2B552D4100B55CD6 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5291081A2B552D4100B55CD6 /* HeaderView.swift */; };
+		5291081D2B552D4100B55CD6 /* HeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5291081B2B552D4100B55CD6 /* HeaderView.xib */; };
+		5291081F2B55322400B55CD6 /* StretchyHeaderLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5291081E2B55322400B55CD6 /* StretchyHeaderLayout.swift */; };
+		529108212B561D3300B55CD6 /* NetworkLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529108202B561D3300B55CD6 /* NetworkLayer.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		520CEC1D2B34319600993DAC /* FaceBook_Like_Animation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FaceBook_Like_Animation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		520CEC202B34319600993DAC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		520CEC242B34319600993DAC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		520CEC272B34319600993DAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		520CEC292B34319900993DAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		520CEC2C2B34319900993DAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		520CEC2E2B34319900993DAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		529108132B55116700B55CD6 /* LiveStreamViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveStreamViewController.swift; sourceTree = "<group>"; };
+		529108152B55275000B55CD6 /* BlueEffectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueEffectViewController.swift; sourceTree = "<group>"; };
+		529108182B552AC800B55CD6 /* StretchyHeaderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StretchyHeaderViewController.swift; sourceTree = "<group>"; };
+		5291081A2B552D4100B55CD6 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		5291081B2B552D4100B55CD6 /* HeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderView.xib; sourceTree = "<group>"; };
+		5291081E2B55322400B55CD6 /* StretchyHeaderLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StretchyHeaderLayout.swift; sourceTree = "<group>"; };
+		529108202B561D3300B55CD6 /* NetworkLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkLayer.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		520CEC1A2B34319600993DAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		520CEC142B34319600993DAC = {
+			isa = PBXGroup;
+			children = (
+				520CEC1F2B34319600993DAC /* FaceBook_Like_Animation */,
+				520CEC1E2B34319600993DAC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		520CEC1E2B34319600993DAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				520CEC1D2B34319600993DAC /* FaceBook_Like_Animation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		520CEC1F2B34319600993DAC /* FaceBook_Like_Animation */ = {
+			isa = PBXGroup;
+			children = (
+				520CEC202B34319600993DAC /* AppDelegate.swift */,
+				520CEC242B34319600993DAC /* ViewController.swift */,
+				520CEC262B34319600993DAC /* Main.storyboard */,
+				529108172B552A6200B55CD6 /* Stretchy Header CollectionView */,
+				520CEC292B34319900993DAC /* Assets.xcassets */,
+				520CEC2B2B34319900993DAC /* LaunchScreen.storyboard */,
+				520CEC2E2B34319900993DAC /* Info.plist */,
+				529108132B55116700B55CD6 /* LiveStreamViewController.swift */,
+				529108152B55275000B55CD6 /* BlueEffectViewController.swift */,
+				529108202B561D3300B55CD6 /* NetworkLayer.swift */,
+			);
+			path = FaceBook_Like_Animation;
+			sourceTree = "<group>";
+		};
+		529108172B552A6200B55CD6 /* Stretchy Header CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				529108182B552AC800B55CD6 /* StretchyHeaderViewController.swift */,
+				5291081A2B552D4100B55CD6 /* HeaderView.swift */,
+				5291081B2B552D4100B55CD6 /* HeaderView.xib */,
+				5291081E2B55322400B55CD6 /* StretchyHeaderLayout.swift */,
+			);
+			path = "Stretchy Header CollectionView";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		520CEC1C2B34319600993DAC /* FaceBook_Like_Animation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 520CEC312B34319900993DAC /* Build configuration list for PBXNativeTarget "FaceBook_Like_Animation" */;
+			buildPhases = (
+				520CEC192B34319600993DAC /* Sources */,
+				520CEC1A2B34319600993DAC /* Frameworks */,
+				520CEC1B2B34319600993DAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FaceBook_Like_Animation;
+			productName = FaceBook_Like_Animation;
+			productReference = 520CEC1D2B34319600993DAC /* FaceBook_Like_Animation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		520CEC152B34319600993DAC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					520CEC1C2B34319600993DAC = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 520CEC182B34319600993DAC /* Build configuration list for PBXProject "FaceBook_Like_Animation" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 520CEC142B34319600993DAC;
+			productRefGroup = 520CEC1E2B34319600993DAC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				520CEC1C2B34319600993DAC /* FaceBook_Like_Animation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		520CEC1B2B34319600993DAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				520CEC2D2B34319900993DAC /* LaunchScreen.storyboard in Resources */,
+				520CEC2A2B34319900993DAC /* Assets.xcassets in Resources */,
+				520CEC282B34319600993DAC /* Main.storyboard in Resources */,
+				5291081D2B552D4100B55CD6 /* HeaderView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		520CEC192B34319600993DAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				520CEC252B34319600993DAC /* ViewController.swift in Sources */,
+				5291081C2B552D4100B55CD6 /* HeaderView.swift in Sources */,
+				529108162B55275000B55CD6 /* BlueEffectViewController.swift in Sources */,
+				5291081F2B55322400B55CD6 /* StretchyHeaderLayout.swift in Sources */,
+				529108212B561D3300B55CD6 /* NetworkLayer.swift in Sources */,
+				529108142B55116700B55CD6 /* LiveStreamViewController.swift in Sources */,
+				529108192B552AC800B55CD6 /* StretchyHeaderViewController.swift in Sources */,
+				520CEC212B34319600993DAC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		520CEC262B34319600993DAC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				520CEC272B34319600993DAC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		520CEC2B2B34319900993DAC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				520CEC2C2B34319900993DAC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		520CEC2F2B34319900993DAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		520CEC302B34319900993DAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		520CEC322B34319900993DAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FaceBook_Like_Animation/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nimol.iOSDev.FaceBook-Like-Animation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		520CEC332B34319900993DAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FaceBook_Like_Animation/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nimol.iOSDev.FaceBook-Like-Animation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		520CEC182B34319600993DAC /* Build configuration list for PBXProject "FaceBook_Like_Animation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				520CEC2F2B34319900993DAC /* Debug */,
+				520CEC302B34319900993DAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		520CEC312B34319900993DAC /* Build configuration list for PBXNativeTarget "FaceBook_Like_Animation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				520CEC322B34319900993DAC /* Debug */,
+				520CEC332B34319900993DAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 520CEC152B34319600993DAC /* Project object */;
+}

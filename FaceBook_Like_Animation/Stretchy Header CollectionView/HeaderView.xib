@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionReusableView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="HeaderView" id="U6b-Vx-4bR" customClass="HeaderView" customModule="FaceBook_Like_Animation" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="488" height="484"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="james-wheeler-9zXMb-E8pI0-unsplash" translatesAutoresizingMaskIntoConstraints="NO" id="oax-it-5ty">
+                    <rect key="frame" x="0.0" y="0.0" width="488" height="484"/>
+                </imageView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="VXr-Tz-HHm"/>
+            <color key="backgroundColor" systemColor="systemPinkColor"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="oax-it-5ty" secondAttribute="bottom" id="Fue-hq-w4t"/>
+                <constraint firstItem="oax-it-5ty" firstAttribute="top" secondItem="U6b-Vx-4bR" secondAttribute="top" id="GjO-Po-iFL"/>
+                <constraint firstItem="VXr-Tz-HHm" firstAttribute="trailing" secondItem="oax-it-5ty" secondAttribute="trailing" id="LwG-CK-YyO"/>
+                <constraint firstItem="oax-it-5ty" firstAttribute="leading" secondItem="VXr-Tz-HHm" secondAttribute="leading" id="RpP-Jb-XQm"/>
+            </constraints>
+            <connections>
+                <outlet property="image" destination="oax-it-5ty" id="8F9-0O-wMY"/>
+            </connections>
+            <point key="canvasLocation" x="6" y="52"/>
+        </collectionReusableView>
+    </objects>
+    <resources>
+        <image name="james-wheeler-9zXMb-E8pI0-unsplash" width="3000" height="2000"/>
+        <systemColor name="systemPinkColor">
+            <color red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
